@@ -13,8 +13,9 @@
 
 }
 body{
-    background-color: black;     
+    /* /* background-color: */
     /* color: wheat; */
+    background-color: black;
 }
 
 .card-container{
@@ -34,6 +35,7 @@ body{
 
 .card-container:hover .card{
     transform: rotateY(180deg);
+  
 }
 
 .front-card,
@@ -49,18 +51,18 @@ body{
 }
 
 .front-card{
-    background-color: white;
+    /* background-color:; */
     padding: 20px;
-    border: 1px ridge white;
+    border: 2px ridge white;
 
 }
 
 .front-card img{
-    max-width: 80%;
+    /* max-width: 80%; */
     display: block;
-    margin: 55px auto;
-    height: 75px;
-    width: 200px;
+    margin:0 auto;
+    height: 100%;
+    width: 100%;
 
 }
 
